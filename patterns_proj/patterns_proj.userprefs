@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gof/Singleton/Scripts/Sample/MySingletonGameManager.cs">
+    <Files>
+      <File FileName="Assets/Optimization/PrefabPool/Scripts/Sample/MyCubePool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Optimization/PrefabPool/Scripts/SimplePrefabPool/AbstractPrefabPool.cs" Line="23" Column="23" />
+      <File FileName="Assets/Optimization/PrefabPool/Scripts/SimplePrefabPool/GameObjectPool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Optimization/PrefabPool/Scripts/SimplePrefabPool/IPrefabPool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Gof/Singleton/Scripts/Sample/MySingletonGameManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
