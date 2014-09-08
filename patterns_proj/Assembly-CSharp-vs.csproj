@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Gof\Singleton\Scripts\Mono\MonoSingleton.cs" />
-     <Compile Include="Assets\Gof\Singleton\Scripts\Mono\Sample\MonoSingletonUser.cs" />
-     <Compile Include="Assets\Gof\Singleton\Scripts\Mono\Sample\MySingletonGameManager.cs" />
+     <Compile Include="Assets\Behavioral\SubclassSandbox\Scripts\BaseExplosion.cs" />
+     <Compile Include="Assets\Behavioral\SubclassSandbox\Scripts\Implementations\DynamiteExplosion.cs" />
+     <Compile Include="Assets\Gof\Singleton\Scripts\MonoSingleton\MonoSingleton.cs" />
+     <Compile Include="Assets\Gof\Singleton\Scripts\MonoSingleton\Sample\MonoSingletonUser.cs" />
+     <Compile Include="Assets\Gof\Singleton\Scripts\MonoSingleton\Sample\MySingletonGameManager.cs" />
      <Compile Include="Assets\Optimization\PrefabPool\Scripts\Sample\MyCube.cs" />
      <Compile Include="Assets\Optimization\PrefabPool\Scripts\Sample\MyCubePool.cs" />
      <Compile Include="Assets\Optimization\PrefabPool\Scripts\Sample\TestMyPool.cs" />
