@@ -16,8 +16,6 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T
                 {
                     Debug.Log("No instance of " + typeof(T) + ", a temporary one is created.");
                     _instance = new GameObject("Temp Instance of " + typeof(T), typeof(T)).GetComponent<T>();
-
-                    if (_instance == null) { Debug.LogError("Problem during the creation of " + typeof(T)); }
                 }
 
                 _instance.Init();
@@ -33,8 +31,13 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T
     {
         if (_instance == null)
         {
+            DontDestroyOnLoad(gameObject);
             _instance = this as T;
             _instance.Init();
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
