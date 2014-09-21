@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf8fc2c836b6439a8a844e320b0c728, type: 3}
   m_Name: jet_PlaneTechSpecs
   m_EditorClassIdentifier: 
-  airPlaneType: 0
+  wingsPrefab: {fileID: 100034, guid: 8868d9a9bd8c94729aa02366416f5404, type: 2}
   serialNumber: jetplane_007
   maxSpeed: 120

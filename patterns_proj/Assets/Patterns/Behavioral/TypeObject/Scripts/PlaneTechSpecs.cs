@@ -2,13 +2,7 @@
 
 public class PlaneTechSpecs : ScriptableObject
 {
-    public enum AirPlaneType
-    {
-        JetPlane,
-        AirPlane
-    }
-
-    public AirPlaneType airPlaneType;
+    public GameObject wingsPrefab;
     public string serialNumber;
     public int maxSpeed;
 }

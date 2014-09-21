@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf8fc2c836b6439a8a844e320b0c728, type: 3}
   m_Name: propeller_PlaneTechSpecs
   m_EditorClassIdentifier: 
-  airPlaneType: 1
+  wingsPrefab: {fileID: 100042, guid: bbe5846408909429cb83882c8c42d911, type: 2}
   serialNumber: propeller_007
   maxSpeed: 120
