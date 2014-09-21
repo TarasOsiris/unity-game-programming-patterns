@@ -6,6 +6,7 @@ public abstract class VisualEffect : MonoBehaviour
 
     protected virtual void Start()
     {
+        SpawnParticles();
         Debug.Log("BaseExplosion Start()");
     }
     

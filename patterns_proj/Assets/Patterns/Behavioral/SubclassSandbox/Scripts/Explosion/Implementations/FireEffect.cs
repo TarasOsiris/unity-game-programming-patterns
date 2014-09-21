@@ -4,12 +4,12 @@ public class FireEffect : VisualEffect
 {
     protected override void Start()
     {
+        base.Start();
         Debug.Log("BombExplosion Start()");
-        SpawnParticles();
-        DoBombSpecificStuff();
+        DoFireSpecificStuff();
     }
 
-    private void DoBombSpecificStuff()
+    private void DoFireSpecificStuff()
     {
         Debug.Log("DoBombSpecificStuff");       
     }

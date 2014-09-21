@@ -6,12 +6,13 @@ public class ExplosionEffect : VisualEffect
 
     protected override void Start()
     {
+        base.Start();
+
         Debug.Log("DynamiteExplosion Start()");
-        SpawnParticles();
-        DoDynamiteSpecificStuff();
+        DoExplosionSpecificStuff();
     }
 
-    private void DoDynamiteSpecificStuff()
+    private void DoExplosionSpecificStuff()
     {
         NGUITools.AddChild(gameObject, additionalDynamiteEffect); 
     }
