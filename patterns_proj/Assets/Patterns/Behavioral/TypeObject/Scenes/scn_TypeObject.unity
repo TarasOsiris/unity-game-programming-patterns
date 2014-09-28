@@ -74,6 +74,324 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &32337450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 32337451}
+  - 33: {fileID: 32337453}
+  - 23: {fileID: 32337452}
+  m_Layer: 0
+  m_Name: aircraft_generic_left_gearDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32337451
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 32337450}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.41829738, y: .975539744, z: 6.56320906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867396271}
+  m_RootOrder: 1
+--- !u!23 &32337452
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 32337450}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &32337453
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 32337450}
+  m_Mesh: {fileID: 4300014, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!1 &245948584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 245948585}
+  - 33: {fileID: 245948587}
+  - 23: {fileID: 245948586}
+  m_Layer: 0
+  m_Name: aircraft_generic_left_gearDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &245948585
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 245948584}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.41829738, y: .975539744, z: 6.56320906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1947235925}
+  m_RootOrder: 1
+--- !u!23 &245948586
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 245948584}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &245948587
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 245948584}
+  m_Mesh: {fileID: 4300014, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!1 &728469020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 728469021}
+  - 114: {fileID: 728469022}
+  m_Layer: 0
+  m_Name: pref_PropellerAircraft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &728469021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 728469020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.58713531, y: 1.60940695, z: -5.56318665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1867396271}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!114 &728469022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 728469020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe6ce2963ae74dd8ada20fc006c297d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  techSpecs: {fileID: 11400000, guid: da43f325adb6e463d9680c13e5981296, type: 2}
+--- !u!1 &798063483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 798063484}
+  - 33: {fileID: 798063486}
+  - 23: {fileID: 798063485}
+  m_Layer: 0
+  m_Name: aircraft_generic_right_rudder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &798063484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 798063483}
+  m_LocalRotation: {x: .845957279, y: -.266729295, z: .13885048, w: -.440377474}
+  m_LocalPosition: {x: 1.73319876, y: 2.63068056, z: -5.68304729}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867396271}
+  m_RootOrder: 4
+--- !u!23 &798063485
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 798063483}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &798063486
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 798063483}
+  m_Mesh: {fileID: 4300018, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!1 &832672706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 832672707}
+  - 33: {fileID: 832672709}
+  - 23: {fileID: 832672708}
+  m_Layer: 0
+  m_Name: aircraft_generic_right_rudder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &832672707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 832672706}
+  m_LocalRotation: {x: .845957279, y: -.266729295, z: .13885048, w: -.440377474}
+  m_LocalPosition: {x: 1.73319876, y: 2.63068056, z: -5.68304729}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1947235925}
+  m_RootOrder: 4
+--- !u!23 &832672708
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 832672706}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &832672709
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 832672706}
+  m_Mesh: {fileID: 4300018, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!1 &913290920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 913290921}
+  - 114: {fileID: 913290922}
+  m_Layer: 0
+  m_Name: pref_JetAircraft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913290921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 913290920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.07902336, y: -.0485348701, z: -.861706734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1947235925}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &913290922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 913290920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe6ce2963ae74dd8ada20fc006c297d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  techSpecs: {fileID: 11400000, guid: 339afc3d9f58845b788804ad3a779954, type: 2}
 --- !u!1001 &974282237
 Prefab:
   m_ObjectHideFlags: 0
@@ -118,6 +436,65 @@ Prefab:
   m_RootGameObject: {fileID: 1810015815}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1092432939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1092432940}
+  - 33: {fileID: 1092432942}
+  - 23: {fileID: 1092432941}
+  m_Layer: 0
+  m_Name: aircraft_generic_left_rudder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1092432940
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1092432939}
+  m_LocalRotation: {x: .138850525, y: -.440377504, z: .845957279, w: -.266729206}
+  m_LocalPosition: {x: -1.73325253, y: 2.63068008, z: -5.68304729}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867396271}
+  m_RootOrder: 2
+--- !u!23 &1092432941
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1092432939}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1092432942
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1092432939}
+  m_Mesh: {fileID: 4300010, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
 --- !u!1 &1198551967
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,12 +552,176 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1198551967}
-  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381676, w: .875426054}
+  m_LocalRotation: {x: .408217967, y: -.234569743, z: .109381683, w: .875426114}
   m_LocalPosition: {x: 3.87899995, y: 3.14520001, z: 5.58979988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
+--- !u!1 &1225966743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1225966744}
+  - 33: {fileID: 1225966746}
+  - 23: {fileID: 1225966745}
+  m_Layer: 0
+  m_Name: aircraft_generic_fuselage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1225966744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 1225966743}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.68354488e-05, y: 1.36659622, z: .902550399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1947235925}
+  m_RootOrder: 0
+--- !u!23 &1225966745
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 1225966743}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 89556223ebf6fc444bc91f7eeeaebdb3, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  - {fileID: 2100000, guid: df6ba413b26f214419626f2dcf939972, type: 2}
+  - {fileID: 2100000, guid: f7850d9a21e5b2c468468b114e902e25, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1225966746
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 1225966743}
+  m_Mesh: {fileID: 4300012, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!1001 &1248766749
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.07902336
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.0485348701
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.861706734
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_RootGameObject: {fileID: 913290920}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1359654532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1359654533}
+  - 33: {fileID: 1359654535}
+  - 23: {fileID: 1359654534}
+  m_Layer: 0
+  m_Name: aircraft_generic_right_gearDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1359654533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1359654532}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: .414853632, y: .975661993, z: 6.56320906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867396271}
+  m_RootOrder: 3
+--- !u!23 &1359654534
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1359654532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1359654535
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1359654532}
+  m_Mesh: {fileID: 4300016, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
 --- !u!1001 &1387131957
 Prefab:
   m_ObjectHideFlags: 0
@@ -225,6 +766,68 @@ Prefab:
   m_RootGameObject: {fileID: 2074314488}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1609072700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1609072701}
+  - 33: {fileID: 1609072703}
+  - 23: {fileID: 1609072702}
+  m_Layer: 0
+  m_Name: aircraft_generic_fuselage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1609072701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1609072700}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.68354488e-05, y: 1.36659622, z: .902550399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867396271}
+  m_RootOrder: 0
+--- !u!23 &1609072702
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1609072700}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 89556223ebf6fc444bc91f7eeeaebdb3, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  - {fileID: 2100000, guid: df6ba413b26f214419626f2dcf939972, type: 2}
+  - {fileID: 2100000, guid: f7850d9a21e5b2c468468b114e902e25, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1609072703
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 5dec530a3e36a4b1aa674425e18afbad,
+    type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1609072700}
+  m_Mesh: {fileID: 4300012, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
 --- !u!1 &1810015815
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +900,115 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &1867396270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1867396271}
+  m_Layer: 0
+  m_Name: aircraft_generic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867396271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_PrefabInternal: {fileID: 2020528193}
+  m_GameObject: {fileID: 1867396270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1609072701}
+  - {fileID: 32337451}
+  - {fileID: 1092432940}
+  - {fileID: 1359654533}
+  - {fileID: 798063484}
+  m_Father: {fileID: 728469021}
   m_RootOrder: 0
+--- !u!1 &1947235924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1947235925}
+  m_Layer: 0
+  m_Name: aircraft_generic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947235925
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 1947235924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1225966744}
+  - {fileID: 245948585}
+  - {fileID: 2137504603}
+  - {fileID: 2121842944}
+  - {fileID: 832672707}
+  m_Father: {fileID: 913290921}
+  m_RootOrder: 0
+--- !u!1001 &2020528193
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.58713531
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.60940695
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -5.56318665
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5dec530a3e36a4b1aa674425e18afbad, type: 2}
+  m_RootGameObject: {fileID: 728469020}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2074314488
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,3 +1097,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &2121842941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2121842944}
+  - 33: {fileID: 2121842943}
+  - 23: {fileID: 2121842942}
+  m_Layer: 0
+  m_Name: aircraft_generic_right_gearDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &2121842942
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2121842941}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2121842943
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2121842941}
+  m_Mesh: {fileID: 4300016, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
+--- !u!4 &2121842944
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2121842941}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: .414853632, y: .975661993, z: 6.56320906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1947235925}
+  m_RootOrder: 3
+--- !u!1 &2137504602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2137504603}
+  - 33: {fileID: 2137504605}
+  - 23: {fileID: 2137504604}
+  m_Layer: 0
+  m_Name: aircraft_generic_left_rudder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137504603
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: d765f01284fc7439eaab14cc055306d6, type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2137504602}
+  m_LocalRotation: {x: .138850525, y: -.440377504, z: .845957279, w: -.266729206}
+  m_LocalPosition: {x: -1.73325253, y: 2.63068008, z: -5.68304729}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1947235925}
+  m_RootOrder: 2
+--- !u!23 &2137504604
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2137504602}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5763236f9414fe24fb9dbe9bcab6a40d, type: 2}
+  - {fileID: 2100000, guid: 014eac8a4e1c26840926532fce70b4d5, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2137504605
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: d765f01284fc7439eaab14cc055306d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1248766749}
+  m_GameObject: {fileID: 2137504602}
+  m_Mesh: {fileID: 4300010, guid: 4fea6053a1424d44daf193f09be2d491, type: 3}
