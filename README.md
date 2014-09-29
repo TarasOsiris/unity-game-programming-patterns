@@ -1,7 +1,7 @@
-unity-game-programming-patterns
+Game Programming Patterns in Unity3d
 ===============================
 
-Game Programming Pattern Examples in Unity3D
+This project is inspired by [Game Programming Patterns Project](http://gameprogrammingpatterns.com/) by [munificent](https://github.com/munificent) and shows some implementations of game programming patterns in Unity game engine.
 
 ### Currently implemented:
 
