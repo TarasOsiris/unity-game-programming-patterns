@@ -10,7 +10,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 	[Range(0, 1)]
 	[SerializeField] float crouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
 	
-	[SerializeField] bool airControl = false;			// Whether or not a player can steer while jumping;
 	[SerializeField] LayerMask whatIsGround;			// A mask determining what is ground to the character
 	
 	Transform groundCheck;								// A position marking where to check if the player is grounded.
@@ -57,7 +56,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		anim.SetBool("Crouch", crouch);
 
 		//only control the player if grounded or airControl is turned on
-		if(grounded || airControl)
+		if(grounded)
 		{
 			// Reduce the speed if crouching by the crouchSpeed multiplier
 			move = (crouch ? move * crouchSpeed : move);
