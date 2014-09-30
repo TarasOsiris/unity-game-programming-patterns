@@ -1,7 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public interface RobotState 
+public abstract class RobotState 
 {
-    void UpdateRobot(State2DRobotController robot);
+    protected State2DRobotController _robot;
+
+    public RobotState(State2DRobotController robot)
+    {
+        _robot = robot;
+    }
+
+    public abstract RobotState UpdateRobot(State2DRobotInput.RobotInput input);
 }

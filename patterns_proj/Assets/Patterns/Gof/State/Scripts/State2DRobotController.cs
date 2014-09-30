@@ -9,7 +9,10 @@ public class State2DRobotController : MonoBehaviour
     // CONST
     private const float GROUNDED_RADIUS = 0.2f;
 
+    private WalkState _walkState;
+    // STATES
     private RobotState _robotState;
+       
 
     // INPUT
     private bool _inputIsCrouchPressed;
@@ -24,13 +27,13 @@ public class State2DRobotController : MonoBehaviour
         _groundCheck = transform.Find("GroundCheck");
         _anim = GetComponent<Animator>();
 
-        _robotState = new WalkState();
+        _robotState = new WalkState(this);
     }
 
-    public void UpdateState(float move, bool crouch, bool jump)
+    public void UpdateState(State2DRobotInput.RobotInput input)
     {
-//        _robotState.UpdateRobot(this);
-        
+        var newState = _robotState.UpdateRobot(input);
+        _robotState = newState;
     }
 
     void FixedUpdate()
@@ -42,7 +45,7 @@ public class State2DRobotController : MonoBehaviour
     {
         _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, GROUNDED_RADIUS, whatIsGround);
         _anim.SetBool("Ground", _isGrounded);
-        _anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+        _anim.SetFloat("vSpeed", rigidbody2D.velocity.y);    
     }
 
     void UpdateInput()
