@@ -18,7 +18,8 @@ public class TerrainBuilder : MonoBehaviour
             for (int j = 0; j < 100; j++) 
             {
                 var curPrefab = i % 3 == 0 || j % 5 == 0? grassTerrainPrefab : waterTerrainPrefab;
-                Object.Instantiate(curPrefab, new Vector3(i, j), Quaternion.identity);
+                var terrainVoxel = Object.Instantiate(curPrefab, new Vector3(i, j), Quaternion.identity) as GameObject;
+                terrainVoxel.transform.SetParent(transform);
             }
         }
     }

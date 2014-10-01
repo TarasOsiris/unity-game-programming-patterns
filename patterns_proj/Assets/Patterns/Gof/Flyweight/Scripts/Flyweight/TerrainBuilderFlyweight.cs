@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class TerrainBuilderFlyweight : MonoBehaviour
 {
@@ -23,6 +22,7 @@ public class TerrainBuilderFlyweight : MonoBehaviour
                 bool isGrass = IsGrass(i, j);
                 var curPrefab = IsGrass(i, j) ? grassTerrainPrefab : waterTerrainPrefab;
                 var terrainVoxel = Object.Instantiate(curPrefab, new Vector3(i, j), Quaternion.identity) as GameObject;
+                terrainVoxel.transform.SetParent(transform);              
 
                 if (isGrass)
                 {
