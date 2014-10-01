@@ -12,7 +12,7 @@ public class WalkState : RobotState
         _robotAnimator = robot.gameObject.GetComponent<Animator>();
     }
 
-    public override RobotState UpdateRobot(State2DRobotInput.RobotInput input)
+    public override RobotState HandleInput(State2DRobotInput.RobotInput input)
     {
         _robotAnimator.SetBool("Crouch", input.crouch);
         

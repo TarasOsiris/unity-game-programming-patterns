@@ -32,7 +32,7 @@ public class State2DRobotController : MonoBehaviour
 
     public void UpdateState(State2DRobotInput.RobotInput input)
     {
-        var newState = _robotState.UpdateRobot(input);
+        var newState = _robotState.HandleInput(input);
         _robotState = newState;
     }
 

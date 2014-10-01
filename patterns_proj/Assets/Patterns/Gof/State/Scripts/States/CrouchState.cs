@@ -7,12 +7,12 @@ public class CrouchState : WalkState
 
     public CrouchState(State2DRobotController robot) : base(robot) {}
 
-    public override RobotState UpdateRobot(State2DRobotInput.RobotInput input)
+    public override RobotState HandleInput(State2DRobotInput.RobotInput input)
     {
         if (!input.crouch) { return new WalkState(_robot); }
          
         input.move = (input.move * CROUCH_SPEED);
-        base.UpdateRobot(input);
+        base.HandleInput(input);
         return this;
     }
 }
