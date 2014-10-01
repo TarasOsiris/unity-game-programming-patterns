@@ -10,5 +10,5 @@ public abstract class RobotState
         _robot = robot;
     }
 
-    public abstract RobotState UpdateRobot(State2DRobotInput.RobotInput input);
+    public abstract RobotState HandleInput(State2DRobotInput.RobotInput input);
 }
