@@ -3,7 +3,7 @@
 public class WalkState : RobotState
 {
     private const float MAX_SPEED = 10f;
-    protected Animator _robotAnimator;
+	private readonly Animator _robotAnimator;
 
     bool _facingRight = true;  
 
@@ -19,14 +19,22 @@ public class WalkState : RobotState
         _robotAnimator.SetFloat("Speed", Mathf.Abs(input.move));
         _robot.GetComponent<Rigidbody2D>().velocity = new Vector2(input.move * MAX_SPEED, _robot.GetComponent<Rigidbody2D>().velocity.y);       
 
-        if (input.move > 0 && !_facingRight) { Flip(); }
-        else if(input.move < 0 && _facingRight) { Flip(); }
+        FlipIfRequired(input);
 
         if (input.crouch) { return new CrouchState(_robot); }
         return this;
     }
 
-    void Flip ()
+	private void FlipIfRequired(State2DRobotInput.RobotInput input) 
+	{
+		if (input.move > 0 && !_facingRight) {
+			Flip();
+		} else if (input.move < 0 && _facingRight) {
+			Flip();
+		}
+	}
+
+	void Flip ()
     {
         _facingRight = !_facingRight;
         Vector3 theScale = _robot.transform.localScale;

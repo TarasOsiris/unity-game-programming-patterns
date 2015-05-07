@@ -1,11 +1,8 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public abstract class RobotState 
+﻿public abstract class RobotState 
 {
     protected State2DRobotController _robot;
 
-    public RobotState(State2DRobotController robot)
+	protected RobotState(State2DRobotController robot)
     {
         _robot = robot;
     }

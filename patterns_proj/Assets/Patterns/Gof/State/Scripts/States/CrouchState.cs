@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class CrouchState : WalkState
+﻿public class CrouchState : WalkState
 {
     private const float CROUCH_SPEED = 0.36f;
 

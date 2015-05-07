@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class State2DRobotController : MonoBehaviour
 {
@@ -9,10 +8,8 @@ public class State2DRobotController : MonoBehaviour
     // CONST
     private const float GROUNDED_RADIUS = 0.2f;
 
-    private WalkState _walkState;
-    // STATES
+	// STATES
     private RobotState _robotState;
-       
 
     // INPUT
     private bool _inputIsCrouchPressed;
@@ -20,7 +17,7 @@ public class State2DRobotController : MonoBehaviour
     private Transform _groundCheck;
     private Animator _anim;
 
-    private bool _isGrounded = false;
+    private bool _isGrounded;
 
     void Awake()
     {
@@ -46,10 +43,5 @@ public class State2DRobotController : MonoBehaviour
         _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, GROUNDED_RADIUS, whatIsGround);
         _anim.SetBool("Ground", _isGrounded);
         _anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);    
-    }
-
-    void UpdateInput()
-    {
-
     }
 }
