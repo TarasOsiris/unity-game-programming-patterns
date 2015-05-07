@@ -2,21 +2,21 @@
 
 public class WaterHoseParticles : MonoBehaviour {
 	
-    ParticleSystem.CollisionEvent[] collisionEvents = new ParticleSystem.CollisionEvent[16];
+    ParticleCollisionEvent[] collisionEvents = new ParticleCollisionEvent[16];
 	
 	public static float lastSoundTime;
 	public float force = 1;
 	
     void OnParticleCollision(GameObject other) {
 		
-        int safeLength = particleSystem.safeCollisionEventSize;
+        int safeLength = GetComponent<ParticleSystem>().GetSafeCollisionEventSize();
 
         if (collisionEvents.Length < safeLength) 
 		{
-            collisionEvents = new ParticleSystem.CollisionEvent[safeLength];
+            collisionEvents = new ParticleCollisionEvent[safeLength];
 		}
         
-        int numCollisionEvents = particleSystem.GetCollisionEvents(other, collisionEvents);
+        int numCollisionEvents = GetComponent<ParticleSystem>().GetCollisionEvents(other, collisionEvents);
         int i = 0;
 
         while (i < numCollisionEvents)

@@ -17,7 +17,7 @@ public class WalkState : RobotState
         _robotAnimator.SetBool("Crouch", input.crouch);
         
         _robotAnimator.SetFloat("Speed", Mathf.Abs(input.move));
-        _robot.rigidbody2D.velocity = new Vector2(input.move * MAX_SPEED, _robot.rigidbody2D.velocity.y);       
+        _robot.GetComponent<Rigidbody2D>().velocity = new Vector2(input.move * MAX_SPEED, _robot.GetComponent<Rigidbody2D>().velocity.y);       
 
         if (input.move > 0 && !_facingRight) { Flip(); }
         else if(input.move < 0 && _facingRight) { Flip(); }

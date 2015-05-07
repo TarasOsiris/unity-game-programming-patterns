@@ -25,7 +25,7 @@ public class MyCubePool : AbstractPrefabPool<MyCube>
     protected override void OnHandleAllocatePrefab(MyCube prefabInstance)
     {
         prefabInstance.gameObject.SetActive(true);
-        prefabInstance.renderer.material.color = Color.yellow;
+        prefabInstance.GetComponent<Renderer>().material.color = Color.yellow;
         prefabInstance.transform.position = new Vector3(-3, -3, -3);
     }
 
@@ -35,7 +35,7 @@ public class MyCubePool : AbstractPrefabPool<MyCube>
     protected override void OnHandleObtainPrefab(MyCube prefabInstance)
     {
         prefabInstance.gameObject.SetActive(true);
-        prefabInstance.renderer.material.color = Color.green;
+        prefabInstance.GetComponent<Renderer>().material.color = Color.green;
     }
 
     /*
@@ -46,6 +46,6 @@ public class MyCubePool : AbstractPrefabPool<MyCube>
     protected override void OnHandleRecyclePrefab(MyCube prefabInstance)
     {
         prefabInstance.gameObject.SetActive(true);
-        prefabInstance.renderer.material.color = Color.red;
+        prefabInstance.GetComponent<Renderer>().material.color = Color.red;
     }
 }

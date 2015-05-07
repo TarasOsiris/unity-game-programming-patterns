@@ -45,7 +45,7 @@ public class State2DRobotController : MonoBehaviour
     {
         _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, GROUNDED_RADIUS, whatIsGround);
         _anim.SetBool("Ground", _isGrounded);
-        _anim.SetFloat("vSpeed", rigidbody2D.velocity.y);    
+        _anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);    
     }
 
     void UpdateInput()

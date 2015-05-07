@@ -20,7 +20,7 @@ public class FigureSpawner : MonoBehaviour
         var capsule = GameObject.CreatePrimitive(PrimitiveType.Capsule);
         
         capsule.AddComponent<Rigidbody>();
-        capsule.renderer.material = greenMaterial;
+        capsule.GetComponent<Renderer>().material = greenMaterial;
 
         var capsuleBehaviour = capsule.AddComponent<GreenCapsule>();
         capsuleBehaviour.health = 100;
@@ -37,14 +37,14 @@ public class FigureSpawner : MonoBehaviour
     public void SpawnBlueSphere()
     {
         var blueSphere = Object.Instantiate(blueSpherePrototype, Vector3.zero, Quaternion.identity) as GameObject;
-        blueSphere.rigidbody.velocity = new Vector3(5, 5, 5);
+        blueSphere.GetComponent<Rigidbody>().velocity = new Vector3(5, 5, 5);
     }
 
     // Prefab can clone itself
     public void SpawnRedCube()
     {
         var redCube = redCubePrototype.Clone();
-        redCube.rigidbody.velocity = new Vector3(5, 5, 5);       
+        redCube.GetComponent<Rigidbody>().velocity = new Vector3(5, 5, 5);       
     }
 
     // Construct Object from scratch

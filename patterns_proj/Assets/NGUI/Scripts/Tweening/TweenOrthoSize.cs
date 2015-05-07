@@ -22,7 +22,7 @@ public class TweenOrthoSize : UITweener
 	/// Camera that's being tweened.
 	/// </summary>
 
-	public Camera cachedCamera { get { if (mCam == null) mCam = camera; return mCam; } }
+	public Camera cachedCamera { get { if (mCam == null) mCam = GetComponent<Camera>(); return mCam; } }
 
 	/// <summary>
 	/// Current field of view value.
